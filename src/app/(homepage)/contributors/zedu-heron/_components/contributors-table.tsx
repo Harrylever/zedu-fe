@@ -49,7 +49,7 @@ export const ContributorsTable = ({ contributors }: ContributorsTableProps) => {
                       href={`https://github.com/${github}`}
                       target="_blank"
                       rel="noopener noreferrer"
-                      aria-label={`${name} on GitHub`}
+                      aria-label={`GitHub: ${github}`}
                       className="text-neutral-500 transition-colors hover:text-neutral-900"
                     >
                       <Github size={16} />

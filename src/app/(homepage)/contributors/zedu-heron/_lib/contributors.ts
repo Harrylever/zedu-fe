@@ -15,7 +15,9 @@ export const contributors: Contributor[] = [
   {
     name: "Tolulope Ogungbemi",
     role: "Team Lead",
-    github: "dav3exe",
+    // Team lead links to the team's GitHub organization, not a personal account.
+    github: "Zedu-Heron-HNG",
+    zeduUsername: "Dave Tolu",
   },
   { name: "Samuel Okwelogu", zeduUsername: "samuel Okwelogu" },
   { name: "Gbadebo Wale", zeduUsername: "Gbadebo Wale" },

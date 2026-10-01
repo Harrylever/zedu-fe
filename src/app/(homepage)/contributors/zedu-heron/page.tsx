@@ -7,7 +7,7 @@ export const metadata: Metadata = {
   title: `Team ${TEAM_NAME} Contributors`,
   description: `The members of Team ${TEAM_NAME} who contributed to Zedu during HNG 15.`,
   alternates: {
-    canonical: siteUrl("/contributors/heron"),
+    canonical: siteUrl("/contributors/zedu-heron"),
   },
 };
 
@@ -22,8 +22,8 @@ const HeronContributorsPage = () => {
         Team <span className="text-primary-500">{TEAM_NAME}</span> Contributors
       </h1>
       <p className="max-w-xl text-sm text-neutral-600 sm:text-base">
-        The people who set up, ran and improved Zedu as Team {TEAM_NAME} during
-        HNG 15.
+        The people who would set up, run and improve Zedu as Team {TEAM_NAME}{" "}
+        during HNG 15.
       </p>
       <p className="text-sm font-medium text-neutral-500">
         {sortedContributors.length}{" "}
