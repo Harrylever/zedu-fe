@@ -1,5 +1,6 @@
 export type Contributor = {
   name: string;
+  zeduUsername?: string;
   role?: string;
   github?: string;
 };
@@ -7,12 +8,41 @@ export type Contributor = {
 export const TEAM_NAME = "Heron";
 
 // To add yourself: copy one entry, fill in your details, and open a PR into devbranch.
-// `role` and `github` (username only, no URL) are optional. Order doesn't matter:
-// the page sorts by name, so add your entry anywhere.
+// Only `name` is required. `zeduUsername` is your username on the Zedu app (no "@"),
+// `github` is your GitHub username only (no URL). Order doesn't matter: the page
+// sorts by name, so add your entry anywhere.
 export const contributors: Contributor[] = [
   {
     name: "Tolulope Ogungbemi",
     role: "Team Lead",
     github: "dav3exe",
   },
+  { name: "Samuel Okwelogu", zeduUsername: "samuel Okwelogu" },
+  { name: "Gbadebo Wale", zeduUsername: "Gbadebo Wale" },
+  { name: "Oluwaseyifunmi", zeduUsername: "Oluwaseyifunmi" },
+  { name: "Joshua Akuma", zeduUsername: "joshua akuma" },
+  { name: "Egbukwu trinity Faith", zeduUsername: "Chloe egbukwu" },
+  { name: "Dean Ukanah", zeduUsername: "ukanah15thdean" },
+  { name: "Bello Muhammed", zeduUsername: "Sallah" },
+  { name: "Edobor Favour", zeduUsername: "favour_success" },
+  { name: "Kelechi Ukanwa", zeduUsername: "kelechi ukanwa" },
+  { name: "Chelsea Singla", zeduUsername: "chelsea_singla" },
+  { name: "Noah Oshose", zeduUsername: "Ose" },
+  { name: "Daniel Okoroafor", zeduUsername: "Daniel Okoroafor" },
+  { name: "Theophilus Taiwo Ajibade", zeduUsername: "ajibade theophilus" },
+  { name: "Louis obam", zeduUsername: "luiz micheal" },
+  { name: "Arinze Ogbuniba", zeduUsername: "zeena" },
+  { name: "Eniola Adegbiyan", zeduUsername: "Arcsquid" },
+  { name: "Oluwadunsin Oluwaleye", zeduUsername: "oluwadunsinoluwaleye" },
+  { name: "Anu John", zeduUsername: "Oyetoke Anu" },
+  { name: "Nwabueze Jeremiah Nwite", zeduUsername: "nwabueze jeremiah nwite" },
+  { name: "Ayotomiwa Ayorinde", zeduUsername: "zamaar" },
+  { name: "Timothy Adeyemo", zeduUsername: "Timothy Adeyemo" },
+  { name: "Kesiena Cruz Ohwots", zeduUsername: "kesiena_cruz" },
+  { name: "Fikayo Olorode", zeduUsername: "fikayo olorode" },
+  { name: "Abdulazeez yusuf", zeduUsername: "Ola Yusuf" },
+  { name: "Ukanna Raymond", zeduUsername: "ukanna raymond" },
+  { name: "Molly", zeduUsername: "Remaswoman" },
+  { name: "Zakari Muhammad Samu", zeduUsername: "ZakariMS" },
+  { name: "Taiwo Francis", zeduUsername: "taiwofrancis001" },
 ];

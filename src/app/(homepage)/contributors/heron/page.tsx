@@ -1,6 +1,6 @@
 import { Metadata } from "next";
 import { siteUrl } from "~/lib/env-urls";
-import { ContributorCard } from "./_components/contributor-card";
+import { ContributorsTable } from "./_components/contributors-table";
 import { contributors, TEAM_NAME } from "./_lib/contributors";
 
 export const metadata: Metadata = {
@@ -29,11 +29,9 @@ const HeronContributorsPage = () => {
         {sortedContributors.length}{" "}
         {sortedContributors.length === 1 ? "contributor" : "contributors"}
       </p>
-      <ul className="mt-4 grid w-full grid-cols-1 gap-4 sm:grid-cols-2 lg:grid-cols-3">
-        {sortedContributors.map((contributor) => (
-          <ContributorCard key={contributor.name} {...contributor} />
-        ))}
-      </ul>
+      <div className="mt-4 w-full">
+        <ContributorsTable contributors={sortedContributors} />
+      </div>
     </section>
   );
 };
