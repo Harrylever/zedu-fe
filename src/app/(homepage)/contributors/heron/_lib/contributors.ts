@@ -19,7 +19,11 @@ export const contributors: Contributor[] = [
     github: "Zedu-Heron-HNG",
     zeduUsername: "Dave Tolu",
   },
-  { name: "Timothy Adeyemo", zeduUsername: "Timothy Adeyemo", github: "timoty-a" },
+  {
+    name: "Timothy Adeyemo",
+    zeduUsername: "Timothy Adeyemo",
+    github: "timoty-a",
+  },
   { name: "Samuel Okwelogu", zeduUsername: "samuel Okwelogu" },
   { name: "Gbadebo Wale", zeduUsername: "Gbadebo Wale" },
   { name: "Joshua Akuma", zeduUsername: "joshua akuma" },
