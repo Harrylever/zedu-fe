@@ -7,7 +7,7 @@ export const metadata: Metadata = {
   title: `Team ${TEAM_NAME} Contributors`,
   description: `The members of Team ${TEAM_NAME} who contributed to Zedu during HNG 15.`,
   alternates: {
-    canonical: siteUrl("/contributors/zedu-heron"),
+    canonical: siteUrl("/contributors/heron"),
   },
 };
 
