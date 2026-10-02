@@ -54,4 +54,6 @@ export const contributors: Contributor[] = [
   { name: "Adenike Bamigbade", zeduUsername: "Adenike_Bamigbade" },
   { name: "Timi Abiola", zeduUsername: "tecnine" },
   { name: "Nana", zeduUsername: "Lanfear" },
+  { name: "Adesanya Sofiyyah", zeduUsername: "Sophia" },
+  { name: "Chinaza Jessica Mbah", zeduUsername: "ZamEpkere" },
 ];
