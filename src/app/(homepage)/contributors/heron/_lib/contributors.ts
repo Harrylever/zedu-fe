@@ -19,7 +19,11 @@ export const contributors: Contributor[] = [
     github: "Zedu-Heron-HNG",
     zeduUsername: "Dave Tolu",
   },
-  { name: "Timothy Adeyemo", zeduUsername: "Timothy Adeyemo", github: "timoty-a" },
+  {
+    name: "Timothy Adeyemo",
+    zeduUsername: "Timothy Adeyemo",
+    github: "timoty-a",
+  },
   { name: "Samuel Okwelogu", zeduUsername: "samuel Okwelogu" },
   { name: "Gbadebo Wale", zeduUsername: "Gbadebo Wale" },
   { name: "Joshua Akuma", zeduUsername: "joshua akuma" },
@@ -49,4 +53,7 @@ export const contributors: Contributor[] = [
   { name: "Taiwo Francis", zeduUsername: "taiwofrancis001" },
   { name: "Adenike Bamigbade", zeduUsername: "Adenike_Bamigbade" },
   { name: "Timi Abiola", zeduUsername: "tecnine" },
+  { name: "Nana", zeduUsername: "Lanfear" },
+  { name: "Adesanya Sofiyyah", zeduUsername: "Sophia" },
+  { name: "Chinaza Jessica Mbah", zeduUsername: "ZamEpkere" },
 ];
